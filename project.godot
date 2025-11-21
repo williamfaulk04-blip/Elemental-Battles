@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Platformer"
-run/main_scene="uid://b1uot63srpf2q"
+run/main_scene="uid://dlotnx3d7ht7"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
