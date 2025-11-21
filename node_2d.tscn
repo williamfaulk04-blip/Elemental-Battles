@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://clgssst8ouqce"]
+
+[ext_resource type="Texture2D" uid="uid://dqpmapx3w1y24" path="res://sprite_0 (2).png" id="1_wtcfe"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0e48y"]
+load_path = "res://.godot/imported/sprite_0 (1).png-034590b631b86e4b20d5bc3e48d02ec2.ctex"
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite0(1)" type="Sprite2D" parent="."]
+position = Vector2(269, 152)
+scale = Vector2(4.46875, 4.09375)
+texture = SubResource("CompressedTexture2D_0e48y")
+
+[node name="Sprite0(1)2" type="Sprite2D" parent="."]
+position = Vector2(37, 144)
+scale = Vector2(4.28125, 2.71875)
+texture = SubResource("CompressedTexture2D_0e48y")
+
+[node name="Sprite0(2)" type="Sprite2D" parent="."]
+position = Vector2(882.5, 155.375)
+scale = Vector2(0.17285156, 0.1418457)
+texture = ExtResource("1_wtcfe")
