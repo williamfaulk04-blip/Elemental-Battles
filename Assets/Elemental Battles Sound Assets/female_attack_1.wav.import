@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://qhvtekhph26x"
+path="res://.godot/imported/female_attack_1.wav-1bbf5dee142add545136e13b85d1cf0a.sample"
+
+[deps]
+
+source_file="res://Assets/Elemental Battles Sound Assets/female_attack_1.wav"
+dest_files=["res://.godot/imported/female_attack_1.wav-1bbf5dee142add545136e13b85d1cf0a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
