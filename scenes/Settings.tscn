@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cs7x1en05y34x"]
 
-[ext_resource type="Script" uid="uid://5tr4ttjpwq43" path="res://scenes/volume.gd" id="1_rbmmp"]
-[ext_resource type="Script" uid="uid://bta3mdh85csb4" path="res://scenes/button.gd" id="2_i47rn"]
+[ext_resource type="Script" uid="uid://5tr4ttjpwq43" path="res://volume.gd" id="1_rbmmp"]
+[ext_resource type="Script" uid="uid://bta3mdh85csb4" path="res://scripts/backtomenu.gd" id="2_i47rn"]
 
 [node name="Settings" type="Node2D"]
 position = Vector2(176, 96)
