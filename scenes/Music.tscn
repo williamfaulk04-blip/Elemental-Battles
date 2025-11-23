@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bexr8p7pawmn1"]
+
+[ext_resource type="AudioStream" uid="uid://db6e2vks8pt1v" path="res://Assets/Elemental Battles Sound Assets/beach front best for game.mp3" id="1_d2dya"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_d2dya")
+autoplay = true
