@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://b1uot63srpf2q"]
+[gd_scene load_steps=21 format=3 uid="uid://b1uot63srpf2q"]
 
 [ext_resource type="Texture2D" uid="uid://djby8o5d8qqux" path="res://Assets/Assets.png" id="1_iywne"]
 [ext_resource type="Texture2D" uid="uid://ve8u004xw1dd" path="res://Assets/Background_1.png" id="2_p57ef"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://bc85obieqph2g" path="res://scenes/kill_zone.tscn" id="7_u5sy4"]
 [ext_resource type="PackedScene" uid="uid://b58n80y7lx0wi" path="res://scenes/spikes.tscn" id="8_gee14"]
 [ext_resource type="PackedScene" uid="uid://he47rgwrslot" path="res://scenes/level_finish.tscn" id="9_0tnpc"]
+[ext_resource type="PackedScene" uid="uid://tdakewqenqpd" path="res://scenes/PauseMenu.tscn" id="11_kvpfn"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eow3j"]
 texture = ExtResource("1_iywne")
@@ -1535,3 +1536,11 @@ position = Vector2(595, -103)
 
 [node name="LevelFinish" parent="." instance=ExtResource("9_0tnpc")]
 position = Vector2(668, -118)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="PauseMenu" parent="CanvasLayer" instance=ExtResource("11_kvpfn")]
+offset_left = -5.0
+offset_top = -95.0
+offset_right = -1057.0
+offset_bottom = -643.0
