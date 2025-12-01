@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqv4x0cf4ldqw"]
+
+[ext_resource type="Texture2D" uid="uid://dabremd7yyf1i" path="res://Assets/Wizard pisk-1.png.png" id="1_5bjue"]
+[ext_resource type="Script" uid="uid://baypevwygahd8" path="res://scripts/RetryButton.gd" id="2_4irhi"]
+
+[node name="Finish" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1153.0
+offset_bottom = 649.0
+color = Color(1, 0.28627452, 1, 1)
+
+[node name="WizardPisk1_png" type="Sprite2D" parent="."]
+position = Vector2(890.00006, 293)
+scale = Vector2(10.3125, 10.3125)
+texture = ExtResource("1_5bjue")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 366.0
+offset_top = 29.0
+offset_right = 794.0
+offset_bottom = 457.0
+theme_override_font_sizes/normal_font_size = 27
+text = "You have completed the game!
+
+thank you for playing
+
+Credits:
+Jasper Holland
+Marty Obrocki
+William Faulk
+Julian Carter
+Mykkel Cunningham"
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 359.0
+offset_top = 434.0
+offset_right = 672.0
+offset_bottom = 511.0
+text = "Play Again?"
+script = ExtResource("2_4irhi")
