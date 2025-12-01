@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://db6e2vks8pt1v"
+path="res://.godot/imported/beach front best for game.mp3-f82169023e541e9600a0dab5d4e2fa92.mp3str"
+
+[deps]
+
+source_file="res://Assets/Elemental Battles Sound Assets/beach front best for game.mp3"
+dest_files=["res://.godot/imported/beach front best for game.mp3-f82169023e541e9600a0dab5d4e2fa92.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

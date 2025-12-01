@@ -1,4 +1,6 @@
 extends CharacterBody2D
+@onready var sfx_jump: AudioStreamPlayer2D = $SFX_jump
+@onready var sfx_running: AudioStreamPlayer2D = $SFX_running
 
 
 const SPEED = 200.0
@@ -21,7 +23,10 @@ func _physics_process(delta: float) -> void:
 	var direction := Input.get_axis("move_left", "move_right")
 	if direction:
 		velocity.x = direction * SPEED
+		sfx_running.play()
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+	
+	
