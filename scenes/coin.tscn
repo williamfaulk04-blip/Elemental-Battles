@@ -1,7 +1,8 @@
-[gd_scene load_steps=20 format=3 uid="uid://bqpk47h2u8j1a"]
+[gd_scene load_steps=21 format=3 uid="uid://bqpk47h2u8j1a"]
 
 [ext_resource type="Script" uid="uid://bo2afn0una8xa" path="res://scripts/coin.gd" id="1_i64fm"]
 [ext_resource type="Texture2D" uid="uid://dbacucskx8nwf" path="res://Assets/coin1_16x16.png" id="1_rwqht"]
+[ext_resource type="AudioStream" uid="uid://dxs1yxt1hmfyr" path="res://Assets/Elemental Battles Sound Assets/Elemental Battles Sound Assets_coin_ding.wav" id="3_11l1o"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i64fm"]
 atlas = ExtResource("1_rwqht")
@@ -129,5 +130,11 @@ autoplay = "default"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_y8m1o")
+
+[node name="SFX_coin" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_11l1o")
+volume_db = 10.097
+bus = &"SFX"
+playback_type = 1
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
