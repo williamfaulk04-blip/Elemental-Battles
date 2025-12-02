@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://dn2lg2ouua8rk"]
+[gd_scene load_steps=16 format=3 uid="uid://dn2lg2ouua8rk"]
 
 [ext_resource type="Script" uid="uid://cnj1oa5aou1sn" path="res://scripts/red_hat_man.gd" id="1_kci1r"]
 [ext_resource type="Texture2D" uid="uid://ba524lj20lovv" path="res://Red Hat Man/Layer 1_sprite_03.png" id="1_n11x4"]
@@ -11,6 +11,8 @@
 [ext_resource type="Texture2D" uid="uid://b1fkgkdo854n8" path="res://Red Hat Man/Layer 1_sprite_08.png" id="8_u3qfe"]
 [ext_resource type="Texture2D" uid="uid://djp0tdu38gymr" path="res://Red Hat Man/Layer 1_sprite_09.png" id="9_j4mjj"]
 [ext_resource type="Texture2D" uid="uid://8hpmeqg04ej0" path="res://Red Hat Man/Layer 1_sprite_10.png" id="10_trou4"]
+[ext_resource type="AudioStream" uid="uid://csf3l7rfhltis" path="res://Assets/Elemental Battles Sound Assets/fart.wav" id="12_anw8t"]
+[ext_resource type="AudioStream" uid="uid://t3xfk5uw5lgo" path="res://Assets/Elemental Battles Sound Assets/running.wav" id="13_0d4gd"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_qwly0"]
 animations = [{
@@ -97,3 +99,11 @@ autoplay = "idle"
 position = Vector2(374, -460)
 scale = Vector2(0.1743164, 0.1743164)
 shape = SubResource("CapsuleShape2D_kql1c")
+
+[node name="SFX_jump" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_anw8t")
+bus = &"SFX"
+
+[node name="SFX_running" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("13_0d4gd")
+bus = &"SFX"
