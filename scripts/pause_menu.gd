@@ -1,6 +1,5 @@
 extends Control
 
-
 func resume():
 	get_tree().paused = false
 	$AnimationPlayer.play_backwards("blur")
@@ -12,7 +11,8 @@ func pause():
 	
 func _input(event):
 		if Input.is_action_just_pressed("escape"):
-			testEsc()
+			if get_tree().current_scene.scene_file_path == "res://scenes/game.tscn":
+				testEsc()
 	
 func testEsc():
 		if !get_tree().paused:

@@ -9,3 +9,4 @@ Controls:
 A = Left
 D = Right
 W/Spacebar = Jump
+esc = pause menu (only available during game)
