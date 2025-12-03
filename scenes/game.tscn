@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=3 uid="uid://b1uot63srpf2q"]
+[gd_scene load_steps=31 format=3 uid="uid://b1uot63srpf2q"]
 
 [ext_resource type="Texture2D" uid="uid://ddgxwoy77n3ro" path="res://Assets/Mountain Sheet.png" id="1_dinhu"]
 [ext_resource type="PackedScene" uid="uid://dn2lg2ouua8rk" path="res://scenes/RedHatMan.tscn" id="4_gee14"]
@@ -290,9 +290,6 @@ _data = {
 
 [node name="Game" type="Node2D"]
 
-[node name="Enemy" parent="." instance=ExtResource("8_vtaks")]
-position = Vector2(77, -44)
-
 [node name="Backgrounds" type="Node" parent="."]
 
 [node name="Mountain" type="Sprite2D" parent="Backgrounds"]
@@ -450,76 +447,76 @@ position = Vector2(542, -103)
 [node name="Spikes2" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(595, -103)
 
-[node name="Spikes3" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes9" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(311, -40)
 
-[node name="Spikes4" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes10" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(152, -552)
 
-[node name="Spikes5" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes11" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(201, -567)
 
-[node name="Spikes6" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes12" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(167, -807)
 
-[node name="Spikes7" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes13" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(503, -776)
 
-[node name="Spikes8" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes14" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(550, -775)
 
-[node name="Spikes9" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes15" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(663, -1032)
 
-[node name="Spikes10" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes16" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(260, -1144)
 
-[node name="Spikes11" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes17" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(313, -1144)
 
-[node name="Spikes12" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes18" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(88, -1303)
 
-[node name="Spikes13" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes19" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(120, -1334)
 
-[node name="Spikes14" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes20" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(168, -1368)
 
-[node name="Spikes15" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes21" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(279, -1399)
 
-[node name="Spikes16" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes22" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(310, -1400)
 
-[node name="Spikes17" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes23" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(327, -1400)
 
-[node name="Spikes18" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes24" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(359, -1400)
 
-[node name="Spikes19" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes25" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(391, -1399)
 
-[node name="Spikes20" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes26" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(762, -1656)
 
-[node name="Spikes21" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes27" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(813, -1656)
 
-[node name="Spikes22" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes28" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(827, -1656)
 
-[node name="Spikes23" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes29" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(879, -1656)
 
-[node name="Spikes24" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes30" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(853, -1736)
 
-[node name="Spikes25" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes31" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(803, -1736)
 
-[node name="Spikes26" parent="Spikes_" instance=ExtResource("8_gee14")]
+[node name="Spikes32" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(968, -2375)
 
 [node name="LevelFinish" parent="." instance=ExtResource("9_0tnpc")]
@@ -579,3 +576,113 @@ texture = ExtResource("11_dinhu")
 position = Vector2(761, -698.5)
 scale = Vector2(3.875, 2.90625)
 texture = ExtResource("10_kvpfn")
+
+[node name="Enemies" type="Node" parent="."]
+
+[node name="Enemy37" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(478, -2599)
+
+[node name="Enemy35" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(967, -2440)
+
+[node name="Enemy32" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(783, -2136)
+
+[node name="Enemy31" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(624, -2136)
+
+[node name="Enemy29" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(296, -2135)
+
+[node name="Enemy27" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(166, -1991)
+
+[node name="Enemy21" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(482, -1512)
+
+[node name="Enemy20" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(71, -1288)
+
+[node name="Enemy19" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(158, -1176)
+
+[node name="Enemy17" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(742, -984)
+
+[node name="Enemy16" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(871, -904)
+
+[node name="Enemy15" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(799, -904)
+
+[node name="Enemy9" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(89, -536)
+
+[node name="Enemy4" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(679, -88)
+
+[node name="Enemy3" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(299, -72)
+
+[node name="Enemy" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(77, -40)
+
+[node name="Enemy2" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(199, -40)
+
+[node name="Enemy5" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(678, -280)
+
+[node name="Enemy6" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(759, -280)
+
+[node name="Enemy7" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(169, -472)
+
+[node name="Enemy8" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(87, -472)
+
+[node name="Enemy10" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(271, -600)
+
+[node name="Enemy11" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(383, -600)
+
+[node name="Enemy12" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(450, -600)
+
+[node name="Enemy13" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(331, -600)
+
+[node name="Enemy14" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(213, -776)
+
+[node name="Enemy18" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(557, -1096)
+
+[node name="Enemy22" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(584, -1512)
+
+[node name="Enemy23" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(938, -1656)
+
+[node name="Enemy24" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(740, -1864)
+
+[node name="Enemy25" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(431, -1943)
+
+[node name="Enemy26" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(301, -1943)
+
+[node name="Enemy28" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(103, -2023)
+
+[node name="Enemy30" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(450, -2215)
+
+[node name="Enemy33" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(926, -2136)
+
+[node name="Enemy34" parent="Enemies" instance=ExtResource("8_vtaks")]
+position = Vector2(890, -2312)
