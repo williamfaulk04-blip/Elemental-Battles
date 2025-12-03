@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://bqpk47h2u8j1a" path="res://scenes/coin.tscn" id="6_p57ef"]
 [ext_resource type="PackedScene" uid="uid://bc85obieqph2g" path="res://scenes/kill_zone.tscn" id="7_u5sy4"]
 [ext_resource type="PackedScene" uid="uid://b58n80y7lx0wi" path="res://scenes/spikes.tscn" id="8_gee14"]
+[ext_resource type="PackedScene" uid="uid://btiwaw1ou41lw" path="res://scenes/enemy.tscn" id="8_vtaks"]
 [ext_resource type="PackedScene" uid="uid://he47rgwrslot" path="res://scenes/level_finish.tscn" id="9_0tnpc"]
 [ext_resource type="Texture2D" uid="uid://cg5u7c2f38io4" path="res://Assets/Cloud1-1.png.png" id="10_kvpfn"]
 [ext_resource type="Texture2D" uid="uid://cb8oabs2b5k5m" path="res://Assets/Small Cloud2-1.png.png" id="11_dinhu"]
@@ -289,6 +290,9 @@ _data = {
 
 [node name="Game" type="Node2D"]
 
+[node name="Enemy" parent="." instance=ExtResource("8_vtaks")]
+position = Vector2(77, -44)
+
 [node name="Backgrounds" type="Node" parent="."]
 
 [node name="Mountain" type="Sprite2D" parent="Backgrounds"]
@@ -421,6 +425,24 @@ autoplay = "move6"
 position = Vector2(830, -2521)
 
 [node name="Spikes_" type="Node" parent="."]
+
+[node name="Spikes3" parent="Spikes_" instance=ExtResource("8_gee14")]
+position = Vector2(311, -40)
+
+[node name="Spikes4" parent="Spikes_" instance=ExtResource("8_gee14")]
+position = Vector2(152, -552)
+
+[node name="Spikes5" parent="Spikes_" instance=ExtResource("8_gee14")]
+position = Vector2(201, -567)
+
+[node name="Spikes6" parent="Spikes_" instance=ExtResource("8_gee14")]
+position = Vector2(167, -807)
+
+[node name="Spikes7" parent="Spikes_" instance=ExtResource("8_gee14")]
+position = Vector2(503, -776)
+
+[node name="Spikes8" parent="Spikes_" instance=ExtResource("8_gee14")]
+position = Vector2(550, -775)
 
 [node name="Spikes" parent="Spikes_" instance=ExtResource("8_gee14")]
 position = Vector2(542, -103)
