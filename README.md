@@ -1,8 +1,11 @@
 To run this game first you'll need to download the Godot Engine from this link https://godotengine.org
+Next download this repository as a zip file.
 
-When you open Godot Engine click 'Import' in the top left of the program and select our project
-After this is done you can either open up the project and run it or you can simply select it in the Godot 'Projects' menu and then click run which will open a new tab with the game running
+When you open the Godot Engine simply drag the zip file into the application to import it.
+Then you can double click on the project to open it (this is required so it can install the needed libraries, which it will do automatically after you open the project) and then click the play icon in the upper right corner.
+(If you try to click run from the home page the game may not run unless it's already been opened on that machine before)
 
 Controls:
-Left arrow and Right arrow for directional inputs
-Space bar for jump
+A = Left
+D = Right
+W/Spacebar = Jump
